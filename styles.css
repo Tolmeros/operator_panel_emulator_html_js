@@ -1,0 +1,104 @@
+/* https://codepen.io/maziarzamani/pen/YXgvjv */
+
+body {
+	font-family: monospace;
+}
+
+p {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.display {
+    float: left;
+    width: 640px; 
+    height: 480px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+.green_message > span {
+	font-weight: bold;
+	color: green;
+}
+
+.higlighted_yellow_message > span {
+	font-weight: bold;
+	background: yellow;
+	color: white;
+	display: inline;
+}
+
+.yellow_message > span {
+	font-weight: bold;
+	color: yellow;
+	display: inline;
+}
+
+.higlighted_orange_message > span {
+	font-weight: bold;
+	/* uncoment for solid orange back background
+	background: orange;
+	color: white;
+	*/
+	/* uncoment for yellow borders and yellow text */
+	border: 2px solid yellow;
+	color: yellow;
+	/* */
+	border-bottom:1px solid orange;
+	/*display: inline;*/
+}
+
+.higlighted_red_message > span {
+	font-weight: bold;
+	/* uncoment for solid red back background
+	background: red;
+	color: white;
+	*/
+	/* uncoment for red borders and red text */
+	border: 2px solid red;
+	color: red;
+	/* */
+	display: inline;
+}
+
+.red_message > span {
+	font-weight: bold;
+	color: red;
+	display: inline;
+}
+
+.input_area {
+	font-size: 20px;
+}
+
+.btn {
+	font-size: 20px;
+	outline:0;
+	font-family: monospace;
+}
+
+.btn-red {
+	background-color: red;
+	color: white;
+}
+
+.btn-red:active {
+	background-color: grey;
+	color: red;
+}
+
+.btn-orange {
+	background-color: orange;
+	color: white;
+}
+
+.btn-orange:active {
+	background-color: grey;
+	color: orange;
+}
+
+.btn-square {
+    border:0;
+}
